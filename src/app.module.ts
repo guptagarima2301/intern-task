@@ -10,10 +10,10 @@ import { UsersModule } from './users/users.module';
       host: 'localhost',
       port: 5432,
       username: 'postgres',
-      password: 'gupta2301@', // Your PostgreSQL password
-      database: 'userdb',      // Database name
-      autoLoadEntities: true,  // Automatically load entities
-      synchronize: true,       // Sync schema with database (disable in production)
+      password: 'gupta2301@', 
+      database: 'userdb',      
+      autoLoadEntities: true,  
+      synchronize: true,      
     }),
     UsersModule,
   ],
